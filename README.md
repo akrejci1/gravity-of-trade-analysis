@@ -44,13 +44,3 @@ Diagnostic tests, including the Breusch-Pagan test, revealed heteroskedasticity.
 1. Clone the repository and ensure the `Data/` folder contains the necessary `.csv` and `.xls` files.
 2. Install the required R packages if they are not already installed on your system.
 3. Run `gravity_model.R` to execute the data extraction, econometric modeling, and visualization generation.
-
-## Technologies
-
-* R
-* `tidyverse` (Data manipulation)
-* `lmtest` & `car` (Diagnostic testing)
-* `sandwich` (Robust covariance matrix estimators)
-* `stargazer` (Econometric table generation)
-* `pscl` (Pseudo-R² for Logit models)
-* `ggplot2` (Data visualization)
