@@ -16,7 +16,7 @@ The empirical strategy utilizes four econometric models (two for exports, two fo
 **1. Log-Linear Gravity Equation (OLS)**
 Used to model the absolute volume of trade flows:
 ```math
-\log(\text{trade}_i) = \beta_0 + \beta_1 \log(\text{GDP}_i) + \beta_2 \log(\text{distance}_i) + \beta_3 \text{is_eu}_i + \varepsilon_i
+\log(\text{trade}_i) = \beta_0 + \beta_1 \log(\text{GDP}_i) + \beta_2 \log(\text{distance}_i) + \beta_3 \text{is\_eu}_i + \varepsilon_i
 ```
 
 **2. Logistic Regression (Logit)**
